@@ -35,6 +35,7 @@ print(sentence)
 # formated string
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 # first_name = "sOhan"
@@ -73,6 +74,9 @@ print(sentence)
 =======
 
 >>>>>>> parent of 5b06114 ("string method")
+=======
+
+>>>>>>> parent of 5b06114 ("string method")
 first_name = "sOhan"
 last_name = "chaudhuree"
 full_name_short=first_name+" "+last_name
@@ -80,6 +84,9 @@ print(full_name_short)
 full_name = f"{first_name} {last_name}"
 print(full_name)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5b06114 ("string method")
+=======
 >>>>>>> parent of 5b06114 ("string method")
 =======
 >>>>>>> parent of 5b06114 ("string method")
