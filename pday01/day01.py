@@ -8,5 +8,7 @@ var2 = 2.1
 var3 = False
 var4 = "chaudhuree"
 print(var1, var2, var3, var4)
-print("1")
-print('2')
+
+# string
+name = "chaudhuree"
+print(len(name))
