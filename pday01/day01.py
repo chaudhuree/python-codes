@@ -23,3 +23,10 @@ print(name[:6])
 print(name[0:])
 # end index will be -1
 # means print the whole string
+
+
+# escape character
+# \" give a quotes
+# \n for new line
+sentence = "dhoro jodi \n\'hotat sondhe"
+print(sentence)
