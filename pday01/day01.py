@@ -30,3 +30,11 @@ print(name[0:])
 # \n for new line
 sentence = "dhoro jodi \n\'hotat sondhe"
 print(sentence)
+
+
+# formated string
+
+first_name = "sOhan"
+last_name = "chaudhuree"
+full_name = f"{first_name} {last_name}"
+print(full_name)
