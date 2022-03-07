@@ -36,5 +36,7 @@ print(sentence)
 
 first_name = "sOhan"
 last_name = "chaudhuree"
+full_name_short=first_name+" "+last_name
+print(full_name_short)
 full_name = f"{first_name} {last_name}"
 print(full_name)
