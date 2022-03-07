@@ -54,3 +54,15 @@
 # print("ow" in sentence)
 # # return boolean ⬆⬆
 # print('han' not in sentence)
+
+# number
+
+a = 5+3
+b = 5-3
+c = 5*3
+d = 5**3  # power 5 to the power 3
+e = 5/3  # float value
+f = 5//3
+g = 5 % 3
+
+print(a, b, c, d, e, f, g)  # result: 8 2 15 125 1.6666666666666667 1 2
