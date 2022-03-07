@@ -8,7 +8,5 @@ var2 = 2.1
 var3 = False
 var4 = "chaudhuree"
 print(var1, var2, var3, var4)
-<<<<<<< HEAD
-print("chaudhuree")
-=======
->>>>>>> parent of 64a4199 ("checking")
+
+print("chaudhuree sohan")
