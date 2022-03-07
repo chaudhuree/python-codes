@@ -33,9 +33,6 @@ print(sentence)
 
 
 # formated string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 # first_name = "sOhan"
@@ -69,24 +66,3 @@ print(sentence)
 # g = 5 % 3
 
 # print(a, b, c, d, e, f, g)  # result: 8 2 15 125 1.6666666666666667 1 2
-=======
-
-=======
-
->>>>>>> parent of 5b06114 ("string method")
-=======
-
->>>>>>> parent of 5b06114 ("string method")
-first_name = "sOhan"
-last_name = "chaudhuree"
-full_name_short=first_name+" "+last_name
-print(full_name_short)
-full_name = f"{first_name} {last_name}"
-print(full_name)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 5b06114 ("string method")
-=======
->>>>>>> parent of 5b06114 ("string method")
-=======
->>>>>>> parent of 5b06114 ("string method")
