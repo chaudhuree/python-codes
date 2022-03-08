@@ -48,3 +48,21 @@ for number in range(1, 4):
     print("second example:" , number , number * '.')
 for number in range(1, 4, 2):
         print("third example:" , number , number * '.')
+
+print("######### for else loop  ##########")
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+# jodi for loop totally loop hoy tahole else statement execute hobe
+
+# dhori email send korlam. 3 bar attempt newar por o successful hoilo na tahole faild dekhaibe
+
+success=False
+for x in range(3):
+    print("attempt")
+    if success:
+        print('sent')
+        break
+else: print('  failed ')
