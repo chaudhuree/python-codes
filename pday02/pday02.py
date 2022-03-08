@@ -1,4 +1,5 @@
-print("day two")
+print("**** day two ****")
+# print("#########  ##########")
 
 # conditional statement
 print("#########conditional statement##########")
@@ -38,3 +39,12 @@ if (high_income or good_credit) and not student:
     print("eligible for loan")
 else:
     print("not eligible for loan")
+
+print("######### for loop ##########")
+# (start,end,step)
+for number in range(4):
+    print("first example:" , number , number * '.')
+for number in range(1, 4):
+    print("second example:" , number , number * '.')
+for number in range(1, 4, 2):
+        print("third example:" , number , number * '.')
