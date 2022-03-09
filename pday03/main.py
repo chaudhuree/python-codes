@@ -28,9 +28,47 @@ print("#### types of function ####")
  type two ⬇⬇
 """
 
+
 def ret_func(name):
     return f"hi {name}"
 
 
 message = ret_func("chaudhuree")
 print(message)
+
+print("#### keyword argument ####")
+
+def increment(number,by):
+    return number+by
+print(increment(5,by=3))
+
+print("#### default argument ####")
+
+def decrement(number , by=2):
+    return number-by
+print(decrement(5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
