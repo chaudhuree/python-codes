@@ -38,37 +38,18 @@ print(message)
 
 print("#### keyword argument ####")
 
-def increment(number,by):
-    return number+by
-print(increment(5,by=3))
+
+def increment(number, by):
+    return number + by
+
+
+print(increment(5, by=3))
 
 print("#### default argument ####")
 
-def decrement(number , by=2):
-    return number-by
+
+def decrement(number, by=2):
+    return number - by
+
+
 print(decrement(5))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
