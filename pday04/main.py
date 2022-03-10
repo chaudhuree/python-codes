@@ -32,3 +32,24 @@ def user_det(**details):
 
 
 user_det(id= 1, name= "chaudhuree", age= 26)
+
+
+print("#### debug ####")
+print("#### vs ####")
+print("#### f9 , f5, f10, f11, shift f5 ####")
+
+def debug_multiply(*numbers):
+    total=1
+    for number in numbers:
+        total*=number
+    return total
+
+print(debug_multiply(1,2,3,4))
+
+
+
+
+
+
+
+
