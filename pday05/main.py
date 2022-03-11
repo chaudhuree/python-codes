@@ -33,10 +33,60 @@ first,second,*other=numbers_two;
 print(f"{first} \n {other}")
 
 print('#### loop ####')
-letter_one=['s','w','t']
+letters_one=['s','w','t']
 
-for index,letter in enumerate(letter_one):
+for index,letter in enumerate(letters_one):
       print(index,letter)
+
+print('#### adding and removing item in list ####')
+
+letters_two=['a','b,','c','d']
+print('#### add ####')
+print('#### add last ####')
+letters_two.append("e")
+print(letters_two)
+print('#### add at position ####')
+letters_two.insert(2,'-')
+print(letters_two)
+
+print('#### delete ####')
+print('#### remove last ####')
+print(letters_two.pop())
+print(letters_two)
+print('#### at position ####')
+print(letters_two.pop(2))
+print(letters_two)
+print('#### if we dont know the index ####')
+letters_two.remove('a')
+print('#### it will remove only first occurance. to remove all we have to loop over the list ####')
+print(letters_two)
+del letters_two[0:2]
+print(letters_two)
+print('#### clear all item in list ####')
+letters_two.clear()
+print(letters_two)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
