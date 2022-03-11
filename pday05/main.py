@@ -79,13 +79,35 @@ print('#### availability check to avoid error ####')
 if 'f' in letters_three:
       print(letters_three.index('f'))
 
+print('#### sort list ####')
+number_three=[2,4,1,3]
+print(number_three)
+print('#### modify the original array ####')
+number_three.sort()
+print(number_three)
+print('#### sort reverse ####')
+number_three.sort(reverse=True)
+print(number_three)
+print('#### sorted method return new list ####')
+number_rour=[2,4,1,3,5]
+new_list=sorted(number_three)
+new_list_reverse=sorted(number_three,reverse=True)
+print(new_list)
+print(new_list_reverse)
+print(number_rour)
 
 
-
-
-
-
-
+print('#### sort tuple or complex items ####')
+items=[
+      ('product2',10),
+      ('product1',20),
+      ('product3',14)
+]
+print(items)
+def sort_item(item):
+      return item[1]
+items.sort(key=sort_item) #function need to pass as key and donot call
+print(items)
 
 
 
