@@ -67,6 +67,18 @@ letters_two.clear()
 print(letters_two)
 
 
+print('#### finding item in list ####')
+
+letters_three=['a','b','c','d']
+print('#### to know the index ####')
+print(letters_three.index('c'))
+print('#### to find number of time ,item available in list ####')
+print(letters_three.count('e'))
+
+print('#### availability check to avoid error ####')
+if 'f' in letters_three:
+      print(letters_three.index('f'))
+
 
 
 
