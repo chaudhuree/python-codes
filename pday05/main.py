@@ -32,8 +32,11 @@ numbers_two=list(range(8))
 first,second,*other=numbers_two;
 print(f"{first} \n {other}")
 
+print('#### loop ####')
+letter_one=['s','w','t']
 
-
+for index,letter in enumerate(letter_one):
+      print(index,letter)
 
 
 
