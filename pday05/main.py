@@ -20,8 +20,24 @@ print('#### copy a list ####')
 print(letters[:])
 print(letters[::2])  # step
 
-numbers_again = list(range(20))
+numbers_one = list(range(20))
 print('#### print all even ####')
-print(numbers_again[::2])
+print(numbers_one[::2])
 print('#### reverse the list ####')
-print(numbers_again[::-1])
+print(numbers_one[::-1])
+
+print('#### unpacking list or destructuring ####')
+numbers_two=list(range(8))
+
+first,second,*other=numbers_two;
+print(f"{first} \n {other}")
+
+
+
+
+
+
+
+
+
+
