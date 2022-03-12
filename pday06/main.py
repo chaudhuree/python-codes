@@ -33,8 +33,11 @@ filter_item_map_lc = [item[1] for item in items]
 filter_item_filter_lc = [item for item in items if item[1] >= 20]
 print(f"{filter_item_map_lc}, {filter_item_filter_lc}");
 
-
-
+print('#### zip ####')
+list1=[1,2,3]
+list2=[10,20,30]
+print(list(zip(list1,list2)))
+print(list(zip('abc',list1,list2)))
 
 
 
