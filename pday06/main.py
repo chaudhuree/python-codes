@@ -39,9 +39,22 @@ list2=[10,20,30]
 print(list(zip(list1,list2)))
 print(list(zip('abc',list1,list2)))
 
+print('#### stack LIFO ####')
 
-
-
+browsing_session=[]
+browsing_session.append(1)
+browsing_session.append(2)
+browsing_session.append(3)
+print(browsing_session)
+def last_session(session=[]):
+    return session.pop()
+last_session(browsing_session)
+print(browsing_session)
+print(f'redirect to:{browsing_session[-1]}')
+last_session(browsing_session)
+last_session(browsing_session)
+if not browsing_session:
+    print('disable')
 
 
 
