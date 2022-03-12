@@ -24,5 +24,42 @@ for item in x:
     print(item)
 
 print('#### filter list ####')
-filter_item=list(filter(lambda item:item[1]>=10,items))
+filter_item = list(filter(lambda item: item[1] >= 10, items))
 print(filter_item)
+
+print('#### list comprehensions ####')
+
+filter_item_map_lc = [item[1] for item in items]
+filter_item_filter_lc = [item for item in items if item[1] >= 20]
+print(f"{filter_item_map_lc}, {filter_item_filter_lc}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
