@@ -31,7 +31,7 @@ print('#### list comprehensions ####')
 
 filter_item_map_lc = [item[1] for item in items]
 filter_item_filter_lc = [item for item in items if item[1] >= 20]
-print(f"{filter_item_map_lc}, {filter_item_filter_lc}");
+print(f"{filter_item_map_lc}, {filter_item_filter_lc}")
 
 print('#### zip ####')
 list1=[1,2,3]
@@ -46,7 +46,9 @@ browsing_session.append(1)
 browsing_session.append(2)
 browsing_session.append(3)
 print(browsing_session)
-def last_session(session=[]):
+def last_session(session=None):
+    if session is None:
+        session = []
     return session.pop()
 last_session(browsing_session)
 print(browsing_session)
@@ -56,10 +58,16 @@ last_session(browsing_session)
 if not browsing_session:
     print('disable')
 
+print('#### queues(FIFO) ####')
 
-
-
-
+from collections import deque
+queue=deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+print(queue)
+queue.popleft()
+print(queue)
 
 
 
