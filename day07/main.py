@@ -21,3 +21,29 @@ print(x)
 print('#### availabilty check ####')
 if 10 in point:
     print('exist')
+
+print('#### swaping variable ####')
+a = 4
+b = 6
+a, b = b, a
+print(a, b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
