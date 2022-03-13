@@ -31,12 +31,29 @@ print(a, b)
 print('#### array ####')
 
 from array import array
-numbers=array('i',[1,2,3])
+
+numbers = array('i', [1, 2, 3])
 print(numbers)
-numbers_last=numbers.pop()
+numbers_last = numbers.pop()
 print(numbers_last)
 
+print('#### sets ####')
+number_with_duplication=[1,1,2,2,3,4]
+first=set(number_with_duplication)
+print(f'number with duplicate:{number_with_duplication} \n unique value: {first} ')
 
+second={1,5}
+second.add(6)
+print(second)
+
+print('#### it can do mathematical operation ####')
+print(first | second)
+print(first & second)
+print(first - second)
+print(first ^ second)
+
+if 3 in first:
+    print('yes')
 
 
 
