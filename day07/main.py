@@ -28,8 +28,13 @@ b = 6
 a, b = b, a
 print(a, b)
 
+print('#### array ####')
 
-
+from array import array
+numbers=array('i',[1,2,3])
+print(numbers)
+numbers_last=numbers.pop()
+print(numbers_last)
 
 
 
