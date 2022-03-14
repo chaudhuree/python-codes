@@ -1,3 +1,5 @@
+from pprint import pprint
+
 print('**** day 08 ****')
 print('#### dictionary ####')
 print('#### a way to declare dictionary ####')
@@ -30,40 +32,38 @@ for key, value in point.items():
 print('#### dictionary comprehension ####')
 # [expression for item in items]
 # for dictionary
-value_dictionary={x:x*2 for x in range(5)}
+value_dictionary = {x: x * 2 for x in range(5)}
 # for list
-value_list=[x*2 for x in range(5)]
+value_list = [x * 2 for x in range(5)]
 # set
-value_set={x*2 for x in range(5)}
-print(value_set,value_list,value_dictionary)
+value_set = {x * 2 for x in range(5)}
+print(value_set, value_list, value_dictionary)
 
-value_tuple=(x*2 for x in range(5))
+value_tuple = (x * 2 for x in range(5))
 print(value_tuple)
 
 print('#### unpacking ####')
-numbers=[1,2,3]
+numbers = [1, 2, 3]
 print(numbers)
 print(*numbers)
-num1=[1,2]
-num2=[3,4]
-num_combined=[*num1,5,*num2]
+num1 = [1, 2]
+num2 = [3, 4]
+num_combined = [*num1, 5, *num2]
 print(num_combined)
 print('#### for dictionary ####')
-first={'x':1}
-second={'x':20,'y':2}
-dict_combined={**first,**second}
+first = {'x': 1}
+second = {'x': 20, 'y': 2}
+dict_combined = {**first, **second}
 print(dict_combined)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+sentenc = 'hello chaudhuree'
+char_frequency = {}
+for char in sentenc:
+    if char in char_frequency:
+        char_frequency[char] += 1
+    else:
+        char_frequency[char] = 1
+# pprint(char_frequency)
+# print(char_frequency.items())
+char_frequency_sorted = sorted(char_frequency.items(), key=lambda x: x[1], reverse=True)
+print(char_frequency_sorted[0])
