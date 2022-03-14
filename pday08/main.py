@@ -26,3 +26,36 @@ for key in point:
 print('#### another way to iterate ####')
 for key, value in point.items():
     print(key, value)
+
+print('#### dictionary comprehension ####')
+# [expression for item in items]
+# for dictionary
+value_dictionary={x:x*2 for x in range(5)}
+# for list
+value_list=[x*2 for x in range(5)]
+# set
+value_set={x*2 for x in range(5)}
+print(value_set,value_list,value_dictionary)
+
+value_tuple=(x*2 for x in range(5))
+print(value_tuple)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
