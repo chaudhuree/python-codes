@@ -40,11 +40,19 @@ print(value_set,value_list,value_dictionary)
 value_tuple=(x*2 for x in range(5))
 print(value_tuple)
 
-
-
-
-
-
+print('#### unpacking ####')
+numbers=[1,2,3]
+print(numbers)
+print(*numbers)
+num1=[1,2]
+num2=[3,4]
+num_combined=[*num1,5,*num2]
+print(num_combined)
+print('#### for dictionary ####')
+first={'x':1}
+second={'x':20,'y':2}
+dict_combined={**first,**second}
+print(dict_combined)
 
 
 
