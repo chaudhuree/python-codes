@@ -66,4 +66,4 @@ for x in range(3):
         print('sent')
         break
 else:
-    print(" failed ")
+    print(" failed to send message")
